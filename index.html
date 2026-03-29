@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Input Nilai Mahasiswa</h2>
+
+    <form>
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama"><br><br>
+
+        <label for="tugas">Nilai Tugas:</label><br>
+        <input type="number" id="tugas" min="0" max="100"><br><br>
+
+        <label for="uts">Nilai UTS:</label><br>
+        <input type="number" id="uts" min="0" max="100"><br><br>
+
+        <label for="uas">Nilai UAS:</label><br>
+        <input type="number" id="uas" min="0" max="100"><br><br>
+
+        <label for="hadir">Kehadiran (maks 14):</label><br>
+        <input type="number" id="hadir" min="0" max="14"><br><br>
+
+        <button type="button" onclick="hitungNilai()">Hitung</button>
+    </form>
+</body>
+
+</html>
